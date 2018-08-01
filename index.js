@@ -1,7 +1,5 @@
 function fetchBooks() {
-  fetch(“https://anapioficeandfire.com/api/books”).then(response => {
-    console.log(response.json);
-    }))
+  fetch(“https://api.github.com/users/megananneking”).then(response => {console.log(response.json)})
 }
 
 function renderBooks(json) {
