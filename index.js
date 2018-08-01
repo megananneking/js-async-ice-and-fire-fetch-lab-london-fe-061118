@@ -1,5 +1,5 @@
 function fetchBooks() {
-  fetch
+  fetch(“https://api.github.com/users/megananneking”).then(response => {console.log(response.json)})
 }
 
 function renderBooks(json) {
